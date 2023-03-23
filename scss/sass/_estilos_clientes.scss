@@ -1,0 +1,27 @@
+.intro{
+    background: rgba(61, 61, 61, 0.7803921569);
+    margin: 2rem 0;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    .titulo{
+        margin-top: 1rem;
+        padding: 1rem;
+        text-shadow: 
+        -1px -1px #000, 
+        1px -1px #000,
+        -1px 1px #000, 
+        1px 1px #000;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+.padre_clientes{
+    background-image: url("../assets/img/fotomusico.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

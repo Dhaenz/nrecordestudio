@@ -1,0 +1,119 @@
+.body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.sec-slogan{
+    &:hover {
+        text-shadow: 
+        -1px -1px #000, 
+        1px -1px #000,
+        -1px 1px #000, 
+        1px 1px #000;
+    }
+    
+}
+
+.intro{
+    background: rgba(61, 61, 61, 0.7803921569);
+    margin: 2rem 0;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    .titulo{
+        margin-top: 1rem;
+        padding: 1rem;
+        text-shadow: 
+        -1px -1px #000, 
+        1px -1px #000,
+        -1px 1px #000, 
+        1px 1px #000;
+    }
+    p{
+        text-align: justify;
+        outline-color: #eb4019;
+    }
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-around;
+    margin-bottom: 12rem;
+    transition: scale 1s ease-in-out;
+    animation: aparecer 1s ease-in-out 1s forwards;
+    opacity: 0%;
+    .card{
+        margin: .5rem;
+        //background: #6d33c1;
+        background-color: #25595785;
+        color: white;
+        .card-body {
+            .card-title{
+                color: #ffffff;
+                height: 3rem;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-shadow: 
+                    -1px -1px 0px #000, 
+                    1px -1px 0px #000,
+                    -1px 1px 0px #000, 
+                    1px 1px 0px #000;
+            }
+        }
+        img{
+            border-radius: 3%;
+            border: .25rem;
+            border-style: solid;
+            padding: .1rem;
+            margin-top: .25rem;
+            border-color: #eb4019;
+        }
+    }
+}
+#ceso {
+    transition: all 1s ease-in-out;
+    &:hover{
+        transition: scale 1s ease-in-out;
+        scale: 1.2;
+    }
+}
+#nech {
+    transition: scale 1s ease-in-out;
+    &:hover{
+        transition: scale 1s ease-in-out;
+        scale: 1.2;
+    }
+}
+#dan {
+    transition: scale 1s ease-in-out;
+    &:hover{
+        transition: scale 1s ease-in-out;
+        scale: 1.2;
+    }
+}
+#cris {
+    transition: scale 1s ease-in-out;
+    &:hover{
+        transition: scale 1s ease-in-out;
+        scale: 1.2;
+    }
+}
+
+@keyframes aparecer{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+.padre-nosotros {
+    background-image: url("../assets/img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+

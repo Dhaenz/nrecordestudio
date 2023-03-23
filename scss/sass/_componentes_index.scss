@@ -1,0 +1,65 @@
+$prefix: 'my-';
+
+.btn{
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0075ff;
+    color: white;
+    border: 0.1rem solid #0075ff;
+    margin: 0 0 0.5rem 0;
+}
+
+.btn-main{
+    @extend .btn;
+    text-decoration: underline;
+    &:hover{
+        background-color: white;
+        color: #0075ff;
+        text-decoration: none;
+        
+    }
+}
+
+.btn-main-s{
+    @extend .btn;
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+    &:hover{
+        background-color: white;
+        color: #0075ff;
+    }
+}
+
+.btn-sec{
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #000000;
+    border: 0.1rem solid #000000;
+    margin: auto;
+}
+//.btn-sec-m queda pendiente por aplicar, no existe aun en la pagina
+.btn-sec-m{
+    @extend .btn-sec;
+    &:hover{
+        background-color: white;    
+        color: #999;
+        border-color: #999;
+    }
+}
+
+.btn-sec-s{
+    @extend .btn-sec;
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+    &:hover{
+        background-color: white;    
+        color: #999;
+        border-color: #999;
+    }
+}
+//El tooltip no responde al cambio queda pendiente personalizar tooltip
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-success);
+}
+

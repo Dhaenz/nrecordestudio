@@ -1,0 +1,27 @@
+{
+  "name": "web_nrecord_estudio",
+  "version": "1.0.0",
+  "description": "Página web del sitio oficial de N'Record Estudio",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhaenz/nrecordestudio.git"
+  },
+  "keywords": [
+    "web",
+    "nrecord",
+    "estudio",
+    "pagina",
+    "nrecord",
+    "online"
+  ],
+  "author": "Daniel Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhaenz/nrecordestudio/issues"
+  },
+  "homepage": "https://github.com/Dhaenz/nrecordestudio#readme"
+}

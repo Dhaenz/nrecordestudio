@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
-    <!-- css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Estilos de la pagina -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- icons bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
-
-    <link rel="stylesheet" href="../css/styles.css">
-
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="../owl-prev/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owl-prev/owl.theme.default.min.css">
+    <title>N'Record Estudio</title>
 </head>
-<body>
-    <div class="container-md">
 
+<body class="padre_index">
+    <div class="container-md">
         <nav class="nav">
             <div class="logo">
-                <a href="#">
-                    <img src="../assets/img/simple-wave-logo-transparente-facebook.png" alt="Simple-wave-logo">
+                <a href="index.html">
+                    <img src="../assets/img/nrecord_estudio_B-N_Logo.png" alt="NRecord_Logo">
                 </a>
             </div>
             <div class="menu d-none d-md-flex">
                 <ul class="main-menu">
-                    <li><a href="#">Prices</a></li><span> / </span>
-                    <li><a href="#">Learn</a></li><span> / </span>
-                    <li><a href="#">Individuals</a></li><span> / </span>
-                    <li><a href="#">Businesses</a></li><span> / </span>
-                    <li><a href="#">Developers</a></li><span> / </span>
-                    <li><a href="#">Company</a></li>
+                    <li><a href="clientes.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Los que ya confian en nuestro trabajo">Clientes</a></li><span> / </span>
+                    <li><a href="catalogo.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Algunos de nuestros trabajos">Catálogo</a></li><span> / </span>
+                    <li><a href="nosotros.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Conoce al equipo N'Record">Nosotros</a></li><span> / </span>
+                    <!-- <li><a href="redes.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Siguenos en nuestras redes sociales">Redes</a></li><span> / </span> -->
+                    <li><a href="galeria.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Una pequeña galería de fotos">Galeria</a></li><!-- <span> / </span>
+                    <li><a href="paquetes.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Paquetes y promociones">Paquetes</a></li> -->
                 </ul>
             </div>
             <div class="get-starter">
@@ -38,42 +39,88 @@
                 <button class="btn-main-s">Get starter</button>
             </div>
         </nav>
-        
-        
-        <section class="sec-home">
 
-            <div class="home-cta">
-                <div class="cta-text">
-                    <span>Jump start your carrer</span>
-                    <i class="bi bi-arrow-right"></i>
-                </div>
-                <h2 class="home-title">Jump start your music proyect</h2>
-                <p class="home-description">Coin base is the easiest place to buy and sell cryptocurrency.Sing up an get started today.</p>
-                <p class="home-description">N'record Estudio is the best place to start your carrer as a profesional musician. Discover your way to musical success !!.</p>
-                <div class="lead-magnet row">
-                    <div class="col-5">
-                        <input type="text" class="form-control input" placeholder="Email address">
+        <section class="sec-banner">
+            <div class="logos row container-fluid">
+                <div class="fondo_logo col">
+                    <div class="logo">
+                        <a href="https://www.facebook.com/nrecordestudio">
+                            <img src="../assets/img/facebook.png" alt="Facebook">
+                        </a>
                     </div>
-                    <div class="col-7">
-                        <button class="btn-main">Get started</button>
+                </div>
+                
+                <div class="fondo_logo col">
+                    <div class="logo">
+                        <a href="https://www.instagram.com/nrecordestudio/">
+                            <img src="../assets/img/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fondo_logo col">
+                    <div class="logo">
+                        <a href="https://www.tiktok.com/@nrecordestudio">
+                            <img src="../assets/img/tik_tok_logo.png" alt="Tiktok">
+                    </a>
+                    </div>
+                </div>
+                
+                <div class="fondo_logo col">
+                    <div class="logo">
+                        <a href="https://www.youtube.com/@nrecordestudio8312">
+                            <img src="../assets/img/youtube.png" alt="Youtube">
+                    </a>
                     </div>
                 </div>
             </div>
-            <div class="home-img text-center d-none d-md-flex">
-                <img src="../assets/img/lona-ventana.png" alt="imgestudio">
-            </div>
+            
         </section>
 
+        <section class="sec-slogan">
+            <div class="slogan">
+                <h3>DONDE TUS IDEAS COBRAN VIDA</h3>
+            </div>
+        </section>
+        
+        <section>
+            <section class="sec-home">
+                <div class="home-cta ">
+                    <div class="cta-text">
+                        <span>Salta hacia tu carrera</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                    <h2 class="home-title">Dale un giro a tu proyecto musical</h2>
+                    <p class="home-description">Tu música sonará mejor que nunca y con los estandares de cualquier plataforma de streaming. Agenda una cita y conoce nuestras instalaciones.</p>
+                    <p class="home-description">N'record Estudio es el mejor lugar para iniciar tu carrera musical o darle un giro profesional a tu proyecto. Descubre tu camino al éxito musical.</p>   
+                </div>
+                    <div class="home-img d-none d-md-flex">
+                        <!-- imagen de prueba-->
+                        <!--<img src="../assets/img/lona-ventana.png" alt="imgestudio"> -->
+                        <!-- SnapWidget -->
+                        <iframe src="https://snapwidget.com/embed/1027412" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border: 1px solid #000; overflow:hidden;  width:402px; height:402px; box-shadow: -10px 15px 15px 3px #000000;"></iframe>
+                </div>
+            </section>
+            
+            <section class="sec-email">
+                <div class="lead-magnet row">
+                    <div class="col-6">
+                        <input type="number" class="form-control input mensaje" placeholder="Deja tu numero movil">
+                    </div>
+                    <div class="col-6">
+                        <button onclick="enviarMensaje()" class="btn-main">Envía tu numero</button>
+                    </div>
+                </div>
+            </section>
+        </section>
 
-        <section class="sec-features container-sm">
+        <section class="sec-features">
             <div class="intro">
                 <h3>Comienza ya tu carrera como músico profesional</h3>
-                <p>N'record es el mejor lugar para iniciar tu carrera artística</p>
+                <p>N'record es el mejor lugar para concretar tu carrera musical.</p>
             </div>
-
                 <div class="features row">
                     <div class="contenido col-md">
-
                         <div class="propiedad">
                             <div class="icons">
                                 <span class="icon-sm">
@@ -81,60 +128,72 @@
                                 </span>
                             </div>
                             <div class="description">
-                                <h4 class="description-title">Dirige tu carrera artística o dejanos dirigirla</h4>
-                                <p class="description-text">Crea y distribuye tu música a todo el mundo con un solo click</p>
+                                <h4 class="description-title">Dirigimos tu carrera</h4>
+                                <p class="description-text">Distribuimos tu música a todo el mundo en todas las plataformas streaming comerciales</p>
                             </div>
                         </div>
-
                         <div class="propiedad">
-                            <div class="icons">
-                                <span class="icon-sm">
-                                    <i class="bi bi-music-note-list"></i>
-                                </span>
-                            </div>
-                            <div class="description">
-                                <h4 class="description-title">Cualquier género musical</h4>
-                                <p class="description-text">Nos adaptamos a cualquiera que sea tu genero musical</p>
-                            </div>
+                                <div class="icons">
+                                    <span class="icon-sm">
+                                        <i class="bi bi-music-note-list"></i>
+                                    </span>
+                                </div>
+                                <div class="description">
+                                    <h4 class="description-title">Tu género musical</h4>
+                                    <p class="description-text">Nos importa tu originalidad y sonaras según tu género.</p>
+                                </div>
                         </div>
-
                         <div class="propiedad">
-                            <div class="icons">
-                                <span class="icon-sm">
-                                    <i class="bi bi-film"></i>
-                                </span>
-                            </div>
-                            <div class="description">
-                                <h4 class="description-title">Videos musicales</h4>
-                                <p class="description-text">Tu video musical para compartir en cualquier plataforma</p>
+                                <div class="icons">
+                                    <span class="icon-sm">
+                                        <i class="bi bi-film"></i>
+                                    </span>
+                                </div>
+                                <div class="description">
+                                    <h4 class="description-title">Videos musicales</h4>
+                                    <p class="description-text">Tu video musical para compartir en todas las plataformas</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="ilustracion col-md d-none d-sm-flex">
+                        <!-- <img class="img estencil" src="../assets/img/fotomusico.jpg" alt="Foto"> -->
+                        <div class="estencil container-sm">
+                            <div class="owl-container">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item" style="width:auto" ><img src="../assets/img/G0017596.JPG" class="" alt="Sala"><h4>1</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4938299886399499245_121.jpg" class="" alt="Timbales"><h4>2</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20210714_154639.jpg" class="" alt="Vista"></i><h4>3</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4938299886399499246_121.JPG" class="" alt="cabina"><h4>4</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4938299886399499248_121.jpg" class="" alt="vista"><h4>5</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4936048086585814112_121.jpg" class="" alt="Ya te olvide"><h4>6</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4936048086585814113_121.JPG" class="" alt="La cinturita"><h4>7</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4938299886399499242_121.jpg" class="" alt="Cabina"><h4>8</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20210224_153528.jpg" class="" alt="Congas"><h4>9</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/-4938299886399499243_121.JPG" class="" alt="Malumbia"><h4>10</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/G0027677.jpg" class="" alt="Erick_Gaeta"><h4>11</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20210430_191608.jpg" class="" alt="live"><h4>12</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20210111_150847.JPG" class="" alt="Luces"><h4>13</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20210224_203749.jpg" class="" alt="Malu"><h4>14</h4></div>
+                                    <div class="item" style="width:auto" ><img src="../assets/img/IMG_20201208_162553.jpg" class="" alt="Cabina_2"><h4>15</h4></div>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
-                    <div class="description-image col-md  d-none d-md-flex">
-                        <img class="img" src="../assets/img/fotomusico.jpg" alt="Foto">
-                    </div>
-
                 </div>
-            
-
-
         </section>
-
 
         <section class="sec-benefits">
             <div class="intro">
-                <h4>Somos el estudio multimedia de música y video que estabas buscando</h4>
-                <p>Aqui hay algunas razonas por las que deberías escogernos como tu estudio de casa.</p>
+                <h3>Somos el estudio multimedia de música y video que estabas buscando</h3>
+                <p>Aqui hay algunas razones por las que deberías escogernos como tu estudio de casa.</p>
             </div>
             <div class="benefit-card row container-fluid">
                 <div class="benefit-propiedad col">
                     <i class="bi bi-person-workspace icon"></i>
                     <div class="description">
                         <h3 class="title">Personal capacitado</h3>
-                        <p class="text">Tenemos al mejor equipo.</p>
-                        <p class="cta">Checalo!</p>
+                        <p class="text">Tenemos al mejor equipo que no dudara en ofrecerte las mejores herramientas para que suenes .</p>
+                        <p class="cta"><a href="nosotros.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Nuestro equipo">Checalo!</a></p>
                     </div>
                 </div>
                 <div class="benefit-propiedad col">
@@ -142,7 +201,7 @@
                     <div class="description">
                         <h3 class="title">Experiencia demostrable</h3>
                         <p class="text">15 años de experiencia en campo.</p>
-                        <p class="cta">Checalo!</p>
+                        <p class="cta"><a href="catalogo.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Nuestro trabajo">Checalo!</a></p>
                     </div>
                 </div>
                 <div class="benefit-propiedad col">
@@ -150,83 +209,76 @@
                     <div class="description">
                         <h3 class="title">La mejor tecnología</h3>
                         <p class="text">Programas de ultima generación.</p>
-                        <p class="cta">Checalo!</p>
+                        <p class="cta"><a href="witgets.html" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Los medios">Checalo!</a></p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section class="sec-kpis row">
-                
-                    <div class="kpis-propiedad col-md text-center">
-                        <h3 class="text-align-center">$2500 MN</h3>
-                        <p class="text-align-center">Composición</p>
-                    </div>
-                    <div class="kpis-propiedad col-md text-center">
-                        <h3 class="text-align-center">$7000 MN</h3>
-                        <p class="text-align-center">Video</p>
-                    </div>
-                    <div class="kpis-propiedad col-md text-center">
-                        <h3 class="text-align-center">$9000 MN</h3>
-                        <p class="text-align-center">Audio y video.</p>
-                    </div>
-                
+        <section class="kpis">
+            <div class="sec-kpis">                
+                        <div class="kpis-propiedad col-md text-center">
+                            <p class="text-align-center">Composición desde</p>
+                            <h3 class="text-align-center">$2000 MN</h3>
+                        </div>
+                        <div class="kpis-propiedad col-md text-center">
+                            <p class="text-align-center">Video desde</p>
+                            <h3 class="text-align-center">$1000 MN</h3>
+                        </div>
+                        <div class="kpis-propiedad col-md text-center">
+                            <p class="text-align-center">Audio y video desde</p>
+                            <h3 class="text-align-center">$6000 MN</h3>
+                        </div>
+            </div>
         </section>
 
-
         <section class="sec-onboarding">
-            <div class="onboarding container-fluid">
-    
-    
+            <div class="onboarding">
                 <div class="intro">
                     <h3>Comienza ya tu carrera artística</h3>
                     <p>N'record es el mejor lugar para iniciar tu carrera artística</p>
                 </div>
-    
-    
                 <div class="steps-row">
-    
-    
                     <div class="icon-desc">
-                        <i class="bi bi-person-plus-fill icon"></i>
+                        <i class="bi bi-person-plus-fill icon d-none d-md-flex"></i>
                         <h3 class="title">Crea tu cuenta</h3>
                     </div>
                     <div class="separator"></div>
                     <div class="icon-desc">
-                        <i class="bi bi-record-btn-fill icon"></i>
+                        <i class="bi bi-record-btn-fill icon d-none d-md-flex"></i>
                         <h3 class="title">Graba ahora mismo</h3>
                     </div>
                     <div class="separator"></div>
                     <div class="icon-desc">
-                        <i class="bi bi-speaker-fill icon"></i>
+                        <i class="bi bi-speaker-fill icon d-none d-md-flex"></i>
                         <h3 class="title">Tu música pro</h3>
                     </div>
-    
-    
                 </div>
-    
-    
             </div>
         </section>
-    
-    
+
         <section class="sec-footer-cta">
             <div class="footer-cta">
                 <h4 class="cta-title">Crece en tu carrera musical.</h4>
                 <p class="cta-description">Explota tu talento con nosotros.</p>
-                <button class="btn-main">Start recording</button>
+                <button class="btn-main">Comienza ya!</button>
             </div>
         </section>
 
         
+
     </div>
 
-
-    
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
+
+<!-- JS Bootstrap-->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- JS Owl carousel -->
+<script src="../owl-prev/jquery.min.js"></script>
+<script src="../owl-prev/owl.carousel.min.js"></script>
+<!-- JS funciones main -->
+<script src="../js/main.js"></script>   
+
 </html>

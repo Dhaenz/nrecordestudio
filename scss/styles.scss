@@ -1,0 +1,35 @@
+//Bootstrap
+@use "./../node_modules/bootstrap/scss/bootstrap.scss";
+
+//COMPONENTES
+@use "sass/componentes_index";
+@use "sass/componentes_catalogo";
+@use "sass/componentes_clientes";
+@use "sass/componentes_galeria";
+@use "sass/componentes_nosotros";
+@use "sass/componentes_paquetes";
+@use "sass/componentes_redes";
+
+
+//ESTILOS
+@use "sass/estilos_index";
+@use "sass/estilos_catalogo";
+@use "sass/estilos_clientes";
+@use "sass/estilos_galeria";
+@use "sass/estilos_nosotros";
+@use "sass/estilos_paquetes";
+@use "sass/estilos_redes";
+
+
+//MIXINS
+@use "sass/mixins";
+
+//Bastidores de pantalla
+@use "sass/mediascreen";
+
+//PAGINAS
+//PRINCIPAL
+//CONTACTO
+//AVISO LEGAL
+//ETC
+
