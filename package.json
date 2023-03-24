@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Dhaenz/nrecordestudio/issues"
   },
-  "homepage": "https://github.com/Dhaenz/nrecordestudio#readme"
+  "homepage": "https://github.com/Dhaenz/nrecordestudio#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
 }
